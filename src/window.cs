@@ -1,15 +1,15 @@
-using System.Window;
+using System;
+using System.Windows;
 
 namespace Ace.Window
 {
-    class App ()
+    public partial class App : Window
     {
-        public static void Main()
+        public Main()
         {
-            /*Window window = new Window();
-
-            window.Show();*/
-            public void Show ();
+            this.Title = "Main Window in Code Only";
+            this.Width = 300;
+            this.Height = 300;
         }
     }
 }
