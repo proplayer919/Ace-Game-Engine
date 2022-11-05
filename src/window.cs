@@ -6,9 +6,10 @@ namespace Ace.Window
     {
         public static void Main()
         {
-            Window window = new Window();
+            /*Window window = new Window();
 
-            window.Show();
+            window.Show();*/
+            public void Show ();
         }
     }
 }
